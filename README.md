@@ -42,6 +42,28 @@ The Fishgame also uses a Firebase Firestore collection named `enchantments` to s
 
 You can add new enchantments by creating documents with these fields in the `enchantments` collection using Firebase Firestore.
 
+### `user` Collection Structure
+
+The Fishgame API uses a Firebase Firestore collection named `user` to store information about each player. Below is the structure of this collection:
+
+| Field      | Type   | Description                                                               |
+|------------|--------|---------------------------------------------------------------------------|
+| `userid`   | string | The unique user identifier, either Discord ID or Twitch username.         |
+| `luck`     | number | The user's luck, which can influence game outcomes or fish value.         |
+| `balance`  | number | The user's in-game balance, representing their current funds or points.   |
+
+#### Example Document
+```json
+{
+  "userid": "discord123456",
+  "luck": 0.8,
+  "balance": 1000
+}
+```
+
+This markdown is now ready to be copied into your README file!
+
+
 ## Installation
 To set up the Fishgame API locally, follow these steps:
 
