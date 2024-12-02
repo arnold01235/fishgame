@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev" : "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/arnold01235/fishgame#readme",
   "dependencies": {
     "express": "^4.21.1",
+    "firebase": "^11.0.2",
     "firebase-admin": "^13.0.1"
   },
   "devDependencies": {
