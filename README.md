@@ -42,3 +42,39 @@ The Fishgame also uses a Firebase Firestore collection named `enchantments` to s
 
 You can add new enchantments by creating documents with these fields in the `enchantments` collection using Firebase Firestore.
 
+## Installation
+To set up the Fishgame API locally, follow these steps:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/fishgame.git
+   cd fishgame
+   ```
+
+2. **Install Dependencies**
+   Make sure you have Node.js installed. Then run the following command to install all the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables**
+   Create an `.env` file in the root directory of your project with the following variables:
+   ```env
+   FIREBASE_API_KEY=your_firebase_api_key
+   FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+   FIREBASE_PROJECT_ID=your_firebase_project_id
+   FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+   FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+   FIREBASE_APP_ID=your_firebase_app_id
+   ```
+   Replace the values with your Firebase project credentials.
+
+4. **Start the Application**
+   To start the Node.js application, run:
+   ```bash
+   npm start
+   ```
+
+   The server should now be running, and you can interact with the Fishgame API.
+
+
