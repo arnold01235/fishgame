@@ -1,0 +1,19 @@
+{
+  "name": "fishgame",
+  "version": "1.0.0",
+  "description": "A simple fish game api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arnold01235/fishgame.git"
+  },
+  "author": "Arnold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnold01235/fishgame/issues"
+  },
+  "homepage": "https://github.com/arnold01235/fishgame#readme"
+}
