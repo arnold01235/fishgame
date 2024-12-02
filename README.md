@@ -61,8 +61,6 @@ The Fishgame API uses a Firebase Firestore collection named `user` to store info
 }
 ```
 
-This markdown is now ready to be copied into your README file!
-
 
 ## Installation
 To set up the Fishgame API locally, follow these steps:
