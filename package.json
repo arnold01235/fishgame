@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arnold01235/fishgame/issues"
   },
-  "homepage": "https://github.com/arnold01235/fishgame#readme"
+  "homepage": "https://github.com/arnold01235/fishgame#readme",
+  "dependencies": {
+    "firebase-admin": "^13.0.1"
+  }
 }
