@@ -47,7 +47,7 @@ To set up the Fishgame API locally, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/fishgame.git
+   git clone https://github.com/arnold01235/fishgame.git
    cd fishgame
    ```
 
