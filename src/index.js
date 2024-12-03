@@ -2,7 +2,7 @@ const express = require('express');
 const firebaseConfig = require('./config/firebaseConfig');
 const { initializeApp } = require('firebase/app');
 const { getFirestore, collection, getDocs } = require('firebase/firestore');
-
+const { fish } = require('./service/fish');
 
 const firebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseApp);
@@ -15,7 +15,8 @@ app.use(express.json());
 
 
 app.get('/fish', async (req, res) => {
-    res.send("hello world");
+    const message = await fish(db);
+    res.status(200).json({ message }); 
 });
 
 // Health check endpoint that checks Firestore connection
